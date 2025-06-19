@@ -1,0 +1,58 @@
+# Compiled binaries and libraries
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-*
+.vs/
+*.swp
+*~
+
+# Dependency directories
+node_modules/
+vendor/
+packages/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.directory
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Backup files
+*.bak
+*.backup
+*.tmp

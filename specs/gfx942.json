@@ -1,0 +1,13 @@
+{
+    "name": "gfx942",
+    "description": "gfx942 is a graphics processing unit (GPU) architecture developed by AMD",
+    "mem": {
+        "gb": 16,
+        "bandwidth": 512
+    },
+    "dtypes": {
+        "fp32": {
+            "tflops": null
+        },
+    }
+}

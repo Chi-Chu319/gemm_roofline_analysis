@@ -1,0 +1,41 @@
+{
+    "name": "gfx950",
+    "description": "gfx950 is a graphics processing unit (GPU) architecture developed by AMD",
+    "mem": {
+        "bandwidth": 8796093022208
+    },
+    "num_cus": 512,
+    "vgpr": 512,
+    "LDS": 163840,
+    "L2": 4194304,
+    "XCD":8,
+    "dtypes": {
+        "fp32": {
+            "tflops": 157.3
+        },
+        "fp64": {
+            "tflops": 78.6
+        },
+        "fp16": {
+            "tflops": 2500
+        },
+        "bf16": {
+            "tflops": 2500
+        },
+        "fp8": {
+            "tflops": 5000
+        },
+        "int8": {
+            "tops": 5000
+        },
+        "fp6": {
+            "tflops": 10000
+        },
+        "fp4": {
+            "tflops": 10000
+        },
+        "int4": {
+            "tops": 5000
+        }
+    }
+}
