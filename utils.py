@@ -1,7 +1,7 @@
 def cdiv(a, b):
     return (a + b - 1) // b
 
-def format_bytes(bytes, suffix='B'):
+def format_bytes(bytes):
     """Format bytes into a human-readable string."""
     if bytes < 0:
         raise ValueError("Bytes cannot be negative")
@@ -14,4 +14,4 @@ def format_bytes(bytes, suffix='B'):
         bytes /= 1024.0
         i += 1
     
-    return f"{bytes:.2f} {units[i]}{suffix}"
+    return f"{bytes:.2f} {units[i]}"

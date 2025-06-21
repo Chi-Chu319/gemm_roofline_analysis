@@ -26,6 +26,6 @@ def vgpr_metrics(args, arch_specs, byte_size):
     print(f"a tile vgpr count: {bytes_to_vgpr(a_tile_size)}")
     print(f"b tile vgpr count: {bytes_to_vgpr(b_tile_size)}")
     print(f"acc tile vgpr count: {bytes_to_vgpr(acc_tile_size)}")
-    print(f"total vgpr count: {bytes_to_vgpr(a_tile_size + b_tile_size + acc_tile_size)}")
+    print(f"total vgpr count: {bytes_to_vgpr(a_tile_size + b_tile_size)} (we assume the acc vgpr is written immediately to the vram no not counted here)")
     print(f"max vgpr count: {arch_specs['vgpr']}")
-    print(f"max occupancy: {arch_specs['vgpr'] // bytes_to_vgpr(a_tile_size + b_tile_size + acc_tile_size)}")
+    print(f"max occupancy: {arch_specs['vgpr'] // bytes_to_vgpr(a_tile_size + b_tile_size)}")
